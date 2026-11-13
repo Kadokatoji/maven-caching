@@ -41,3 +41,5 @@ java -cp target/maven-caching-demo-1.0.0.jar:$(mvn -q dependency:build-classpath
 | Set up JDK 17 | `Cache not found for input keys` | `Cache restored successfully` |
 | Build with Maven | Nhiều dòng `Downloading from central` | Gần như không còn |
 | Post Set up JDK 17 | `Cache saved successfully` | `Cache hit occurred on the primary key ..., not saving cache` |
+
+Lần chạy thứ hai để kiểm tra cache hit.
